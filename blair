@@ -1,0 +1,8 @@
+
+	local args = {
+		[1] = {
+			[1] = "AddAll",
+			[2] = "Ghost Writing Book",
+		}
+	}
+	game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("ManipulateItems"):InvokeServer(unpack(args))
